@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldLens - Your Window to Global News</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #f1f1f1;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .grid a {
+            display: block;
+            background: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        .grid a:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WorldLens</h1>
+        <p>Your Window to Global News</p>
+    </header>
+
+    <nav>
+        <a href="#africa">Africa</a>
+        <a href="#asia">Asia</a>
+        <a href="#europe">Europe</a>
+        <a href="#antarctica">Antarctica</a>
+        <a href="#latin-america">Latin America</a>
+        <a href="#north-america">North America</a>
+        <a href="#south-america">South America</a>
+    </nav>
+
+    <main>
+        <section id="africa">
+            <h2>Africa</h2>
+            <div class="grid">
+                <a href="https://www.bbc.com/news/world/africa" target="_blank">BBC News - Africa</a>
+                <a href="https://www.aljazeera.com/africa/" target="_blank">Al Jazeera - Africa</a>
+                <a href="https://www.dw.com/en/top-stories/africa/s-12756" target="_blank">DW News - Africa</a>
+            </div>
+        </section>
+
+        <section id="asia">
+            <h2>Asia</h2>
+            <div class="grid">
+                <a href="https://www.bbc.com/news/world/asia" target="_blank">BBC News - Asia</a>
+                <a href="https://www.aljazeera.com/asia/" target="_blank">Al Jazeera - Asia</a>
+                <a href="https://www.scmp.com/" target="_blank">South China Morning Post</a>
+            </div>
+        </section>
+
+        <section id="europe">
+            <h2>Europe</h2>
+            <div class="grid">
+                <a href="https://www.bbc.com/news/world/europe" target="_blank">BBC News - Europe</a>
+                <a href="https://www.euronews.com/" target="_blank">Euronews</a>
+                <a href="https://www.dw.com/en/top-stories/europe/s-1432" target="_blank">DW News - Europe</a>
+            </div>
+        </section>
+
+        <section id="antarctica">
+            <h2>Antarctica</h2>
+            <div class="grid">
+                <a href="https://www.sciencedaily.com/news/earth_climate/antarctica/" target="_blank">Science Daily - Antarctica</a>
+                <a href="https://www.nationalgeographic.com/environment/topic/antarctica" target="_blank">National Geographic - Antarctica</a>
+            </div>
+        </section>
+
+        <section id="latin-america">
+            <h2>Latin America</h2>
+            <div class="grid">
+                <a href="https://www.bbc.com/news/world/latin_america" target="_blank">BBC News - Latin America</a>
+                <a href="https://www.aljazeera.com/latin-america/" target="_blank">Al Jazeera - Latin America</a>
+            </div>
+        </section>
+
+        <section id="north-america">
+            <h2>North America</h2>
+            <div class="grid">
+                <a href="https://www.bbc.com/news/world/us_and_canada" target="_blank">BBC News - US & Canada</a>
+                <a href="https://www.cnn.com/" target="_blank">CNN</a>
+                <a href="https://www.nbcnews.com/" target="_blank">NBC News</a>
+            </div>
+        </section>
+
+        <section id="south-america">
+            <h2>South America</h2>
+            <div class="grid">
+                <a href="https://www.bbc.com/news/world/latin_america" target="_blank">BBC News - South America</a>
+                <a href="https://www.reuters.com/world/americas/" target="_blank">Reuters - Americas</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WorldLens. All rights reserved.</p>
+    </footer>
+</body>
+</html>
